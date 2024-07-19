@@ -1,0 +1,100 @@
+body {
+  margin: 0;
+  padding: 0;
+  /* background-image: url('../img2.png'); */
+  background-color: #F8EFBA;
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-size: 14px;
+  font-family: sans-serif;
+  color: white;
+  overflow: auto;
+}
+a {
+  color: white;
+  font-size: 14px;
+}
+#main {
+  width: 100%;
+}
+#wrap {
+  position: relative;
+  margin: 0 auto;
+  width: 1100px;
+  height: 680px;
+  margin-top: 10px;
+}
+#text {
+  width: 272px;
+  height: 560px;
+  left: 188px;
+  top: 80px;
+  position: absolute;
+}
+#code {
+  display: none;
+  /* padding: 20px ; */
+  color: #ff4757;
+  font-family: monospace;
+  font-size: 26px;
+  margin-top: 30px;
+  /* line-height: 25px; */
+  font-size: larger;
+  width:420px;
+  font-weight: bolder;
+  /* border:2px solid black; */
+  position: relative;
+  left:-120px;
+}
+#clock-box {
+  position: absolute;
+  left: 20px;
+  top: 550px;
+  font-size: 18px;
+  display: none;
+  /* border: 2px solid black; */
+}
+#clock-box a {
+  font-size: 28px;
+  text-decoration: none;
+}
+#clock {
+  margin-left: 48px;
+  color:#ff4757;
+}
+#clock .digit {
+  font-size: 64px;
+}
+#canvas {
+  margin: 0 auto;
+  width: 1100px;
+  height: 680px;
+}
+#error {
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 60px;
+  display: none;
+}
+.hand {
+  cursor: pointer;
+}
+.say {
+  margin-left: 5px;
+  font-size: 26px;
+}
+.space {
+  margin-right: 150px;
+}
+
+#message-box{
+  position: absolute;
+  margin-top:450px;
+  font-size: 25px;
+  font-family: monospace;
+  color:#ff4757;
+  left:70px;
+  font-weight: 1000;
+  /* border:2px solid black; */
+
+}
